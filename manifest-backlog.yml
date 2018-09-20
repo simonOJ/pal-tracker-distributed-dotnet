@@ -6,7 +6,7 @@ applications:
   routes:
   - route: backlog-pal-SOJEB.apps.pikes.pal.pivotal.io
   path: Applications/BacklogServer/bin/Release/netcoreapp2.0/publish
-   env:
+  env:
     GRANT_TYPE: client_credentials
   services:
   - tracker-backlog-database
